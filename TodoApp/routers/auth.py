@@ -24,7 +24,8 @@ ALGORITHM = "HS256"
 
 # templates = Jinja2Templates(directory="C:\Bartek\Projekty FastAPI\FullStackApp\TodoApp\\templates")
 # templates = Jinja2Templates(directory="TodoApp\\templates")
-templates = Jinja2Templates(directory="templates")
+# templates = Jinja2Templates(directory="templates")
+templates = Jinja2Templates(directory=r"TodoApp\templates")
 
 
 # class CreateUser(BaseModel):
