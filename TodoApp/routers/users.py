@@ -18,7 +18,8 @@ router = APIRouter(
 
 Base.metadata.create_all(bind=engine)
 # templates = Jinja2Templates(directory="C:\Bartek\Projekty FastAPI\FullStackApp\TodoApp\\templates")
-templates = Jinja2Templates(directory="TodoApp\\templates")
+# templates = Jinja2Templates(directory="TodoApp\\templates")
+templates = Jinja2Templates(directory="templates")
 
 
 def get_db():

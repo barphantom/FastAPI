@@ -23,7 +23,8 @@ SECRET_KEY = "KlgH6AzYDeZeGwD288to79I3vTHT8wp7"
 ALGORITHM = "HS256"
 
 # templates = Jinja2Templates(directory="C:\Bartek\Projekty FastAPI\FullStackApp\TodoApp\\templates")
-templates = Jinja2Templates(directory="TodoApp\\templates")
+# templates = Jinja2Templates(directory="TodoApp\\templates")
+templates = Jinja2Templates(directory="templates")
 
 
 # class CreateUser(BaseModel):
